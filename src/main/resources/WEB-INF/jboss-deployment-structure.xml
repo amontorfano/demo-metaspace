@@ -1,0 +1,15 @@
+<jboss-deployment-structure
+	xmlns="urn:jboss:deployment-structure:1.2">
+	<deployment>
+		<exclude-subsystems>
+			<subsystem name="jaxrs" />
+			<subsystem name="logging" />
+		</exclude-subsystems>
+		<!-- caricamento delle site-properties -->
+		<dependencies>
+			<module name="it.allitude.dsg.DigiSign" export="TRUE"/>
+			<module name="org.jboss.as.web" />
+			<module name="javax.servlet.api" />
+		</dependencies>
+	</deployment>
+</jboss-deployment-structure>
