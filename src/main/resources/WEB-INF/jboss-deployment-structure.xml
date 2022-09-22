@@ -7,7 +7,6 @@
 		</exclude-subsystems>
 		<!-- caricamento delle site-properties -->
 		<dependencies>
-			<module name="it.allitude.dsg.DigiSign" export="TRUE"/>
 			<module name="org.jboss.as.web" />
 			<module name="javax.servlet.api" />
 		</dependencies>
